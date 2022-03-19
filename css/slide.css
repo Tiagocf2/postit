@@ -1,0 +1,21 @@
+/*Container do carrossel*/
+.slide{
+	overflow: hidden;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background: rgba(150, 150, 255, 0.3);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.5); 
+	color: blue;
+	text-align: center;
+	font: 2em 'Brush Script MT', Consolas, sans-serif;
+}
+
+/*Imagens do carrossel*/
+.slide img {;
+	height: 100%;
+	border-radius: 10px;
+}
+
+/*Classes para determinar se a imagem esta ativa ou nao no carrossel*/
+.slide img.slide-on {display: inline-block;}
+.slide img.slide-off {display: none;}
